@@ -1,7 +1,7 @@
 Assessment Task
 
 SERF as an AI product deals with a lot of documents, we often need to tag the words in the documents. This task will simulate that process.
-The final product should be a simple interface that shows a block of text with very basic formatting (paragraphs). It should be implemented in clean and well-structured React Redux application that allows the user to mark words as tags, e.g.
+The final product should be a simple interface that shows a block of text with very basic formatting (paragraphs). It should be implemented in clean and well-structured React Redux application that allows the user to mark words as tags.
 
 The steps include:
 •	The candidate must fetch some dummy text from the server and query if there are existing tags associated with the text.
