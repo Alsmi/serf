@@ -1,0 +1,114 @@
+/*PRE*/
+.clearfix {
+    min-height: 1%;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*LAYOUT*/
+body {
+    background-color:lightblue;
+    height: 96vh;
+    max-width:96%;
+    padding:2vh 2%;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#content {
+    height:100%;
+}
+
+/*mainApp*/
+.mainApp {
+    height:100%;
+	width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#add-new-tag, #find-all-tags {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #fdd501;
+    font-weight: bold;
+    cursor:pointer;
+    margin-top: 15px;
+}
+
+#add-new-tag:hover {
+    background-color: #e2be00;
+}
+
+#find-all-tags:hover {
+    background-color: #e2be00;
+}
+
+#add-new-tag {
+    display:none;
+    margin-left: 30px;
+}
+
+#add-new-tag.active {
+    display:inline-block;
+}
+
+.text {
+    height: 80%;
+    float:left;
+    width:68%;
+}
+
+.text-field, .tags-field {
+    background-color:white;
+    border-radius:7px;
+}
+
+.text-field {
+    overflow:auto;
+    height: 90%;
+    border: 2px solid black;
+    padding: 10px;
+    font: bold 14px/1.4 Arial,sans-serif;
+}
+
+.paragraph {
+    word-wrap: break-word;
+}
+
+.word {
+    cursor:pointer;
+}
+
+.tags {
+    height: 80%;
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.tags-field {
+    overflow:auto;
+    height: 90%;
+    border: 2px solid black;
+    padding: 10px;
+    font: bold 14px/1.4 Arial,sans-serif;
+}
+
+.tag-name {
+    cursor:pointer;
+}
+
